@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Home</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<div class="wrapper">
+	<header data-scroll="121" data-scroll-show class="header" id="top">
+		<div class="header__container header__container_wide">
+			<div class="header__column header__column_logo">
+				<a href="" class="header__logo">
+					<img src="img/horologist-logo.svg" alt="logo">
+				</a>
+			</div>
+			<div class="header__column header__column_wide">
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="" class="menu__link">Home</a></li>
+							<li data-goto="about" class="menu__item"><a href="" class="menu__link">About</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Shop</a></li>
+							<li data-goto="services" class="menu__item"><a href="" class="menu__link">Services</a></li>
+							<li data-goto="contact" class="menu__item"><a href="" class="menu__link">Contact</a></li>
+						</ul>
+
+					</nav>
+				</div>
+			</div>
+			<div data-da=".menu__body,549.98" class="header__column header__column_auth">
+				<ul class="header__auth auth-header">
+					<li class="auth-header__item">
+						<a href class="auth-header__link">Log in / registration</a>
+					</li>
+					<ul data-da=".menu__body,991.98" class="menu__list menu__list_social">
+						<li class="menu__item"><a href="http://www.facebook.com/yourhorologist" target="_blank" class="_icon-facebook"></a></li>
+						<li class="menu__item"><a href="" class="_icon-twitter"></a></li>
+						<li class="menu__item"><a href="https://instagram.com/_horologist_" target="_blank" class="_icon-instagram"></a></li>
+					</ul>
+				</ul>
+			</div>
+			<button type="button" class="icon-menu"><span></span></button>
+		</div>
+
+
+	</header>
+	<main class="mainpage">
+		<section data-fullscreen class="full-screen">
+			<div class="full-screen__body">
+				<img class="full-screen__icon" src="img/logoName.svg" alt="logo">
+				<div class="full-screen__title">SWISS WATCHMAKING</div>
+				<div class="full-screen__text">Hands of a Heart Surgeon, Patience of a Bomb</div>
+				<a data-goto="booking" class="full-screen__button" href="#">booking now</a>
+			</div>
+			<video muted autoplay loop playsinline preload="auto" id="myVideo" class="full-screen__video">
+				<source src="img/5.webp" type="video/webm" />
+				<source src="../files/horologist.mp4" type="video/mp4" />
+				Your browser does not support HTML5 video.
+			</video>
+		</section>
+		<section class="mainpage__slider main-slider" id="services">
+			<div class="main-slider__container main-slider__container_wide">
+				<div class="main-slider__container body-main-slider">
+					<div class="body-main-slider__swiper">
+						<div class="body-main-slider__slide slide-main-slider">
+							<div class="slide-main-slider__content">
+								<div class="slide-main-slider__header block-header">
+									<div class="block-header__title"> complete service</div>
+									<div class="block-header__text">Complete Service is a routine scheduled service that should be maintained every Five years. </div>
+								</div>
+								<a href="" class="slide-main-slider__button button">read more</a>
+							</div>
+							<a href="" class="slide-main-slider__image-ibg">
+								<img src="img/slider/Rolex.webp" alt="Picture watch" loading="lazy">
+							</a>
+						</div>
+						<div class="body-main-slider__slide slide-main-slider">
+							<div class="slide-main-slider__content">
+								<div class="slide-main-slider__header block-header">
+									<div class="block-header__title"> maintenance service</div>
+									<div class="block-header__text">Maintenance intervention is a routine scheduled service that should be maintained every two years. </div>
+								</div>
+								<a href="" class="slide-main-slider__button button">read more</a>
+							</div>
+							<a href="" class="slide-main-slider__image-ibg">
+								<img src="img/slider/Ferdiand.webp" alt="Picture watch" loading="lazy">
+							</a>
+						</div>
+						<div class="body-main-slider__slide slide-main-slider">
+							<div class="slide-main-slider__content">
+								<div class="slide-main-slider__header block-header">
+									<div class="block-header__title">VIP Service Package</div>
+									<div class="block-header__text">Purchase a VIP Service Package Value $3150 and have your timepiece looked after over the next 5years</div>
+								</div>
+								<a href="" class="slide-main-slider__button button">read more</a>
+							</div>
+							<a href="" class="slide-main-slider__image-ibg">
+								<img src="img/slider/graff.webp" alt="Picture watch" loading="lazy">
+							</a>
+						</div>
+					</div>
+					<div class="body-main-slider__control"></div>
+				</div>
+			</div>
+		</section>
+		<section class="book" id="booking">
+			<div class="book__container">
+				<div class="book__body">
+					<div class="book__header">
+						<div class="book__header block-header">
+							<div class="block-header__title">book now</div>
+							<div class="block-header__text">Please enter your details below to secure your appointment today!</div>
+						</div>
+						<form data-dev data-poppup-massage="#formMessage" action="#" class="book__form form-book">
+							<div class="form-book__lines">
+								<div class="form-book__line">
+									<select name="form[]" class="form">
+										<option value="1" selected>authenticity check</option>
+										<option value="2">diagnosis </option>
+										<option value="3">technical performance</option>
+										<option value="4">technical specifications</option>
+										<option value="5">water resistant test</option>
+									</select>
+								</div>
+								<div class="form-book__line">
+									<div class="form-book__input _icon-datapicer">
+										<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" value="Tue May 16 2023" data-calendar class="input-dark">
+									</div>
+								</div>
+								<div class="form-book__line">
+									<select data-scroll="" name="form[]" class="form">
+										<option value="1" selected>3:00pm - 3:15pm</option>
+										<option value="2">3:15pm - 3:30pm </option>
+										<option value="3">3:30pm - 3:45pm</option>
+										<option value="4">3:45pm - 4:00pm</option>
+										<option value="5">4:00pm - 4:15pm</option>
+										<option value="6">4:15pm - 4:30pm</option>
+										<option value="7">4:30pm - 4:45pm</option>
+										<option value="8">4:45pm - 5:00pm</option>
+										<option value="9">5:00pm - 5:15pm</option>
+										<option value="10">5:15pm - 5:30pm</option>
+										<option value="11">5:30pm - 5:45pm</option>
+										<option value="12">5:45pm - 6:00pm</option>
+									</select>
+								</div>
+							</div>
+							<div class="form-book__lines form-book__inputs">
+								<div class="form-book__line">
+									<input autocomplete="off" type="text" name="form[full-name]" data-error="Ошибка" placeholder="Full Name" class="input-dark">
+								</div>
+								<div class="form-book__line">
+									<input autocomplete="off" type="tel" name="form[phone]" data-error="Ошибка" placeholder="Phone" class="input-dark">
+								</div>
+								<div class="form-book__line">
+									<input autocomplete="off" type="email" name="form[email]" data-error="Ошибка" placeholder="Email" class="input-dark">
+								</div>
+							</div>
+							<button type="submit" class="book__button button">submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section data-bg class="chef" id="about">
+			<div class="chef__container">
+				<div class="chef__column">
+					<div class="chef__image">
+						<img src="img/chef/image.webp" alt="chef">
+					</div>
+				</div>
+				<div class="chef__column">
+					<div class="chef__content">
+						<div class="book__header block-header block-header_left">
+							<div class="block-header__title">Your Horologist</div>
+						</div>
+						<div class="chef__text _icon-quote">
+							With over 20 years experience, my Passion for watchmaking comes from acute attention to detail and mechanical perfection. I have always been intrigued with complex mechanical engineering and enjoyed the challenge of servicing the masterpieces.
+							<p>Whilst in the industry I have been fortunate enough not only to work side by side but also be trained by some of the best horologist's in the world. These trainers, companies, manufacturers, colleagues, and family have giving me the opportunity to be the best I can be and I am much appreciative of that.</p>
+							<p>I am a certified watchmaker from the headquaters of
+								<a class="chef__link" href="https://www.omegawatches.com/en-au/?gad=1&gclid=CjwKCAjw04yjBhApEiwAJcvNoQqhaj7oN_6tTHAbeiNO4QYXI5Gk8-SPz2lSZN4QDZqH3xdb5gXrxhoCZbEQAvD_BwE" target="_blank">Omega</a>,
+								<a class="chef__link" href="https://www.longines.com/en-au?gad=1&gclid=EAIaIQobChMI1OKFhpTw_gIVhsZMAh3NMwySEAAYASAAEgJL1vD_BwE" target="_blank">Longines</a>,
+								<a class="chef__link" href="https://www.chrono24.com.au/breguet/index.htm?psafe_param=1&gclid=CjwKCAjw04yjBhApEiwAJcvNoVLJtciiapGLmqjHGVC3wgIKJT-D3dpTb2uOWJIexVgx9XZc7R5IzRoCVL0QAvD_BwE" target="_blank">Breguet</a>,
+								<a class="chef__link" href="https://www.panerai.com/en/home.html" target="_blank">Panerai</a>,
+								<a class="chef__link" href="https://www.iwc.com/au/en/home.html?&mid=2300kxs49488&mkwid=sVpg46jNC_dc&pcrid=549082228932&kword=purchase%20iwc&match=e&plid=&gclid=CjwKCAjw04yjBhApEiwAJcvNoQCHvOqr0JrSeEJqdVVHKGM7geLsbK3BykdVgPcjiCatWFgqo-k3URoCdTgQAvD_BwE&gclsrc=aw.ds" target="_blank">IWC</a>
+								and <a class="chef__link" href="https://www.breitling.com/us-en/" target="_blank">Breitling</a>.
+							</p>
+						</div>
+						<div class="chef__info info-chef">
+							<div class="info-chef__title">Michael Arraiza</div>
+							<div class="info-chef__text">Chef & Founder</div>
+						</div>
+						<div class="chef__signature">
+							<img src="img/chef/signature.svg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div data-watch="video" class="video-module">
+			<video id="video-module" data-full="../files/main.mp4" data-src="../files/watchfull.mp4" muted class="video-module__item"></video>
+		</div>
+		<section class="gallery">
+			<div class="gallery__container">
+				<div class="gallery__content">
+					<div class="gallery__header block-header ">
+						<h2 class="block-header__title">Photo Gallery</h2>
+						<div class="block-header__text block-header__text_space">At Horologist we uphold the high quality workmanship and service standards set by the manufacturers.
+							<p>We treat every watch as our own and you can entrust your watch is in good hands.</p>
+						</div>
+					</div>
+					<a href="https://instagram.com/_horologist_" target="_blank" class="gallery__button button">View More</a>
+				</div>
+				<div class="gallery__body">
+					<div class="gallery__slider">
+						<div data-gallery class="gallery__swiper">
+							<a href="img/gallery/origin/16.webp" class="gallery__slide-ibg">
+								<img class="swiper-lazy" data-src="img/gallery/prew/16.webp" alt="Picture" loading="lazy">
+							</a>
+							<a href="img/gallery/origin/5.webp" class="gallery__slide-ibg">
+								<img class="swiper-lazy" data-src="img/gallery/prew/5.webp" alt="Picture" loading="lazy">
+							</a>
+							<a href="img/gallery/origin/7.webp" class="gallery__slide-ibg">
+								<img class="swiper-lazy" data-src="img/gallery/prew/7.webp" alt="Picture" loading="lazy">
+							</a>
+							<a href="img/gallery/origin/11.webp" class="gallery__slide-ibg">
+								<img class="swiper-lazy" data-src="img/gallery/prew/11.webp" alt="Picture" loading="lazy">
+							</a>
+							<a href="img/gallery/origin/6.webp" class="gallery__slide-ibg">
+								<img class="swiper-lazy" data-src="img/gallery/prew/6.webp" alt="Picture" loading="lazy">
+							</a>
+							<a href="img/gallery/origin/4.webp" class="gallery__slide-ibg">
+								<img class="swiper-lazy" data-src="img/gallery/prew/4.webp" alt="Picture" loading="lazy">
+							</a>
+							<a href="img/gallery/origin/3.webp" class="gallery__slide-ibg">
+								<img class="swiper-lazy" data-src="img/gallery/prew/3.webp" alt="Picture" loading="lazy">
+							</a>
+							<a href="img/gallery/origin/8.webp" class="gallery__slide-ibg">
+								<img class="swiper-lazy" data-src="img/gallery/prew/8.webp" alt="Picture" loading="lazy">
+							</a>
+							<a href="img/gallery/origin/9.webp" class="gallery__slide-ibg">
+								<img class="swiper-lazy" data-src="img/gallery/prew/9.webp" alt="Picture" loading="lazy">
+							</a>
+							<a href="img/gallery/origin/10.webp" class="gallery__slide-ibg">
+								<img class="swiper-lazy" data-src="img/gallery/prew/10.webp" alt="Picture" loading="lazy">
+							</a>
+							<a href="img/gallery/origin/15.webp" class="gallery__slide-ibg">
+								<img class="swiper-lazy" data-src="img/gallery/prew/15.webp" alt="Picture" loading="lazy">
+							</a>
+							<a href="img/gallery/origin/12.webp" class="gallery__slide-ibg">
+								<img class="swiper-lazy" data-src="img/gallery/prew/12.webp" alt="Picture" loading="lazy">
+							</a>
+							<a href="img/gallery/origin/13.webp" class="gallery__slide-ibg">
+								<img class="swiper-lazy" data-src="img/gallery/prew/13.webp" alt="Picture" loading="lazy">
+							</a>
+							<a href="img/gallery/origin/14.webp" class="gallery__slide-ibg">
+								<img class="swiper-lazy" data-src="img/gallery/prew/14.webp" alt="Picture" loading="lazy">
+							</a>
+							<a href="img/gallery/origin/2.webp" class="gallery__slide-ibg">
+								<img class="swiper-lazy" data-src="img/gallery/prew/2.webp" alt="Picture" loading="lazy">
+							</a>
+							<a href="img/gallery/origin/1.webp" class="gallery__slide-ibg">
+								<img class="swiper-lazy" data-src="img/gallery/prew/1.webp" alt="Picture" loading="lazy">
+							</a>
+							<a href="img/gallery/origin/17.webp" class="gallery__slide-ibg">
+								<img class="swiper-lazy" data-src="img/gallery/prew/17.webp" alt="Picture" loading="lazy">
+							</a>
+							<a href="img/gallery/origin/18.webp" class="gallery__slide-ibg">
+								<img class="swiper-lazy" data-src="img/gallery/prew/18.webp" alt="Picture" loading="lazy">
+							</a>
+							<a href="img/gallery/origin/19.webp" class="gallery__slide-ibg">
+								<img class="swiper-lazy" data-src="img/gallery/prew/19.webp" alt="Picture" loading="lazy">
+							</a>
+							<a href="img/gallery/origin/20.webp" class="gallery__slide-ibg">
+								<img class="swiper-lazy" data-src="img/gallery/prew/20.webp" alt="Picture" loading="lazy">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="subscribe">
+			<div class="subscribe__container">
+				<div class="subscribe__body">
+					<div class="subscribe__header">
+						<div class="subscribe__header block-header">
+							<div class="block-header__title">Subscribe to Our Newsletter</div>
+							<div class="block-header__text block-header__text_uppercase">And never miss latest Updates!</div>
+						</div>
+						<form action="#" class="subscribe__form form-subscribe">
+							<div class="form-subscribe__lines form-subscribe__inputs">
+								<div class="form-subscribe__line">
+									<input autocomplete="off" type="email" name="form[email]" data-error="Error" placeholder="Email" class="input-dark">
+								</div>
+								<button type="submit" class="subscribe__button button">subscribe</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="contact" class="location">
+			<div class="location__container">
+				<div class="location__body">
+					<div class="location__header">
+						<div class="location__header block-header block-header_center">
+							<div class="block-header__title">our location</div>
+							<div class="block-header__text block-header__text_uppercase">we are easy to find</div>
+						</div>
+					</div>
+					<div class="location__images">
+						<a class="location__map" href="https://www.google.com/maps/place/428+George+St,+Sydney+NSW+2000/@-33.869908,151.2073361,17z/data=!3m1!4b1!4m6!3m5!1s0x6b12ae3f0910fa6d:0xab7fb3f3bee0f18c!8m2!3d-33.869908!4d151.2073361!16s%2Fg%2F11c2fkhmcv" target="_blank">
+							<img src="img/bg/map.webp" alt="Map">
+						</a>
+						<a class="location__photo" href="https://www.google.com/maps/place/428+George+St,+Sydney+NSW+2000/@-33.8698798,151.2069053,3a,75y,94.93h,90t/data=!3m7!1e1!3m5!1siiQuN26_hkCGyQzq-_f3ZA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DiiQuN26_hkCGyQzq-_f3ZA%26cb_client%3Dsearch.gws-prod.gps%26w%3D360%26h%3D120%26yaw%3D94.93041%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656!4m7!3m6!1s0x6b12ae3f0910fa6d:0xab7fb3f3bee0f18c!8m2!3d-33.869908!4d151.2073361!10e5!16s%2Fg%2F11c2fkhmcv" target="_blank">
+							<img src="img/bg/address.webp" alt="Address">
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div data-goto="top" class="main-scroll__scroll _icon-select-arrow-up">
+			<div class="main-scroll__bg"></div>
+		</div>
+	</main>
+	<footer data-bg class="footer">
+		<div class="footer__container">
+			<div class="footer__body">
+				<div class="footer__contacts contacts-footer">
+					<div class="contacts-footer__title">Contact Me</div>
+					<div class="contacts-footer__items">
+						<div class="contacts-footer__item">
+							<a class="contacts-footer__item_address" href="https://www.google.com/maps/place/428+George+St,+Sydney+NSW+2000/@-33.8699035,151.2047612,17z/data=!3m1!4b1!4m6!3m5!1s0x6b12ae3f0910fa6d:0xab7fb3f3bee0f18c!8m2!3d-33.869908!4d151.2073361!16s%2Fg%2F11c2fkhmcv" target="_blank">
+								Level 1, Suite 8, The Dymocks Building, 428 George Street, Sydney NSW 2000 Australia
+							</a>
+
+						</div>
+						<div class="contacts-footer__item">
+							<a class="contacts-footer__item_address" href="mailto:info@horologist.com.au" target="_blank">
+								info@horologist.com.au
+							</a>
+
+						</div>
+						<a href="tel:+61410573882" class="contacts-footer__link">+61 410 573 882</a>
+						<a href="tel:+61292236075" class="contacts-footer__link">(02) 9223 6075</a>
+					</div>
+				</div>
+				<div class="footer__main main-footer">
+					<div class="main-footer__title"><img src="img/logoName.svg" alt="logo"></div>
+					<div class="main-footer__text">"The best way to find yourself is to lose yourself in the service of others.”</div>
+					<div class="main-footer__social social-footer">
+						<a href="http://www.facebook.com/yourhorologist" target="_blank" class="social-footer__link _icon-facebook"></a>
+						<a href="" class="social-footer__link _icon-twitter"></a>
+						<a href="https://instagram.com/_horologist_" target="_blank" class="social-footer__link _icon-instagram"></a>
+					</div>
+				</div>
+				<div class="footer__contacts contacts-footer">
+					<div class="contacts-footer__title">Working Hours</div>
+					<div class="contacts-footer__items">
+						<div class="contacts-footer__item">
+							<p>Monday-Friday:</p>
+							<p> 9:30 am - 5:00 pm</p>
+						</div>
+						<div class="contacts-footer__item">
+							<p>Saturday-Sunday:</p>
+							<p>closed</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__copy">2023 Horologist. All Rights reserved.</div>
+			<div class="footer__copy_dev">The site was developed by the <a class="footer__dev" href="https://prosofthub.com.au/" target="_blank">ProSoftHub</a> company</div>
+		</div>
+	</footer>
+</div>
+<!-- <div id="formMessage" aria-hidden="true" class="popup">
+<div class="popup__wrapper">
+    <div class="popup__content">
+        <button data-close type="button" class="popup__close">Close</button>
+        <div class="popup__text">
+            Booking Complete Thank You!
+        </div>
+    </div>
+</div>
+</div> -->
+<script src="js/app.min.js"></script>
+</body>
+
+</html>
