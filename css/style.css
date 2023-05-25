@@ -158,8 +158,7 @@
   content: "\e900";
 }
 
-._icon-instagram:before,
-.gallery__slide-ibg:before {
+._icon-instagram:before {
   content: "\e901";
 }
 
@@ -203,7 +202,8 @@
   content: "\e909";
 }
 
-._icon-maximize:before {
+._icon-maximize:before,
+.gallery__slide-ibg:before {
   content: "\e90a";
 }
 
@@ -2540,8 +2540,7 @@ textarea.input {
   content: "\e900";
 }
 
-._icon-instagram:before,
-.gallery__slide-ibg:before {
+._icon-instagram:before {
   content: "\e901";
 }
 
@@ -2585,7 +2584,8 @@ textarea.input {
   content: "\e909";
 }
 
-._icon-maximize:before {
+._icon-maximize:before,
+.gallery__slide-ibg:before {
   content: "\e90a";
 }
 
